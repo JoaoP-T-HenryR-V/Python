@@ -6,7 +6,9 @@ if i != -1:
         i = float(input("Digite uma Nota: "))
         media += i
         if i > maior:
-            maior = i     
+            maior = i   
+        if i < menor:
+            menor = i   
         qtd += 1
 media = media/qtd
 print ("A maior nota foi:", maior)
