@@ -1,4 +1,6 @@
-qntU,qnt18 = 0
+qntU = 0
+qnt18 = 0
+
 user = input("Digite seu nome: ")
 while user.lower() != "encerrar":
     idade = input("Digite sua idade: ")
